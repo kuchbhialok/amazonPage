@@ -1,0 +1,44 @@
+*{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+}
+#line{
+    background-color: #0F1111;
+    height: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#logo{
+    background: url(logo.png);
+    height: 40px;
+    width: 80px;
+    background-size: contain;
+    margin-left: 0px;
+}
+#add{
+    background-color: white;
+    height: 40px;
+    width: 60px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 20px;
+}
+#but{
+    height: 50px;
+    width: 440px;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    display: inline-block;
+}
+#hi{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+}
