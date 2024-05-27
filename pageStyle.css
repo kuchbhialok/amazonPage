@@ -1,5 +1,4 @@
 *{
-    background-color: aqua;
     font-family: 'Times New Roman', Times, serif;
     padding: 0px;
     margin: 0px;
@@ -11,11 +10,10 @@
     padding-top: 0px;
     margin-top: 0px;
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    align-items: center ;
 }
 #logo{
-    background: url(logo.png);
+    background: url("logo.png");
     height: 40px;
     width: 80px;
     background-size: contain;
@@ -29,16 +27,65 @@
     justify-content: center;
     margin-left: 20px;
 }
+#all{
+    margin-left:  20px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 5px;
+
+}
 #but{
     height: 50px;
     width: 440px;
     background-color: aliceblue;
     border: 1px solid #ccc;
-    margin-left: 20px;
     display: inline-block;
+    border-radius: 10px;
 }
 #hi{
     background-color: white;
     height: 60px;
     width: 60px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+#cart{
+    height: 60px;
+    width: 60px;
+    background-image: url("cart.png");
+    border: 1px black solid;
+}
+#line2{
+    height: 40px;
+    background-color: #202b2b;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.buttonss{
+    font-size: 30px;
+}
+#b1{
+    
+    background-color: #0F1111;
+    color: white;
+    display: inline-block;
+}
+#b2{
+    height: 30px;
+    background-color: #0F1111;
+    color: white;
+    display: inline-block;
+}
+#b3{
+    height: 30px;
+    background-color: #0F1111;
+    color: white;
+    display: inline-block;
+}
+#b4{
+    height: 30px;
+    background-color: #0F1111;
+    color: white;
+    display: inline-block;
 }
