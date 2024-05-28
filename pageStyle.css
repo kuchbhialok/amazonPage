@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     border: border-box;
+    background-color: #f7f2f8;
 }
 #line{
     background-color: #0F1111;
@@ -11,6 +12,7 @@
     margin-top: 0px;
     display: flex;
     align-items: center ;
+    justify-content: center;
 }
 #logo{
     background: url("logo.png");
@@ -59,8 +61,6 @@
     height: 40px;
     background-color: #202b2b;
     display: flex;
-    justify-content: start;
-    align-items: center;
 }
 .buttonss{
     font-size: 30px;
@@ -72,20 +72,106 @@
     display: inline-block;
 }
 #b2{
-    height: 30px;
     background-color: #0F1111;
     color: white;
     display: inline-block;
 }
 #b3{
-    height: 30px;
+
     background-color: #0F1111;
     color: white;
     display: inline-block;
 }
 #b4{
-    height: 30px;
+
     background-color: #0F1111;
     color: white;
     display: inline-block;
+}
+.middle-pannel{
+    height: 400px;
+    background-image: url("open.png");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.msg{
+    height: 30px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 50px;
+    font-style: bold;
+}
+.box{
+    height: 400px;
+    width: 20%;
+    background-color: rgb(35, 7, 7);
+}
+.box1{
+    background-image: url("b1.png");
+    background-size: cover;
+}
+.box2{
+    background-image: url("b2.png");
+    background-size: cover;
+}
+.box3{
+    background-image: url("b3.png");
+    background-size: cover;
+}
+.box4{
+    background-image: url("b4.png");
+    background-size: cover;
+}
+.end{
+    background-color: rgb(93, 93, 197);
+    height: 80px;
+    color: white;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-left: 140px;
+}
+.btt{
+    height: 50px;
+    background-color: grey;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last{
+    height: 500px;
+    background-color: #202b2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+ul a{
+    display: block;
+    align-items: flex-end;
+}
+.footer a{
+    background-color: #202b2b;
+    height: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

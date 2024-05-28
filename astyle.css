@@ -1,0 +1,33 @@
+*{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.dis{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+.imag{
+    height: 400px;
+    width: 400px;
+    background-image: url("al.jpg");
+    background-size: cover;
+}
+
+.textt{
+    height: 70px;
+    font-size: 50px;
+    background-color:  antiquewhite ;
+    animation: moveText 3s infinite;
+}
+@keyframes moveText {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50%);
+    }
+}
